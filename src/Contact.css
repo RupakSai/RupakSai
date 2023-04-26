@@ -1,0 +1,103 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conDiv{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #0FFF50;
+}
+.conDiv h1{
+    margin-bottom: 10px;
+}
+.conDiv2{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+.subCon{
+    width: 250px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+}
+.subCon div{
+    width: 100%;
+    height: 33%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.subCon div:hover{
+    background-color: black;
+    transition: 0.5s ease;
+    border: 1px solid white;
+}
+.subCon a{
+    font-size: 15px;
+    transform: 0.5 ease;
+    margin-top: 5px;
+}
+.subCon p{
+    font-size: 15px;
+    transform: 0.5s ease;
+    margin-top: 5px;
+}
+.subCon2{
+    width: 500px;
+    height: 475px;  
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
+}
+.subCon2 form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
+    font-family: 'Ysabeau', sans-serif;
+}
+.subCon2 .inp{
+    height: 50px;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.subCon2 .inp2{
+    height: 125px;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.subCon2 .btbtn{
+    background-color: #0FFF50;
+    color: black;
+    width: 150px;
+}
+.btbtn:hover{
+    background-color: black;
+    color: #0FFF50;
+    font-weight: 100;
+    border: 1px solid #0FFF50;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@300&family=Ysabeau:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --color-bg: black;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #0FFF50;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: white;
+    --color-light: rgba(255, 255, 255,, 0.6);
+    --transition: all 4s ease;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bolder;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    
+    background-image: url(../src/assets/abstract-dark-background-with-line-green_301033-160.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+section{
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+section > h2, section > h5{
+    text-align: center;
+    color: var(--color-light);
+}
+section > h2{
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.textLight{
+    color: var(--color-light);
+}
+a{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--color-white);
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: #0FFF50;
+    color: black;
+    font-weight: bolder;
+    border-color: transparent;
+}
+.btnPrimary{
+    background: #0FFF50;
+    color: black;
+    font-weight: bolder;
+    transition: 0.7s ease;
+}
+.btnPrimary:hover{
+    background-color: black;
+    color: #0FFF50;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 6rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}

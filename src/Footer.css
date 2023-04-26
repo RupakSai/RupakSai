@@ -1,0 +1,26 @@
+.footerDiv{
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.footerDiv .fDiv1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footerDiv .fDiv2{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 40px;
+    transition: 0.5s ease;
+    margin-top: 40px;
+}
+.fDiv2 a:hover{
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
