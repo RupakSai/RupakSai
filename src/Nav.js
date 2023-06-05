@@ -53,11 +53,11 @@ function Nav() {
   return (
     <nav data-aos="fade-up"
     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <a href="#" id='a1' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"><AiOutlineHome></AiOutlineHome></a>
-      <a href="#about" id='a2' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"><AiOutlineUser></AiOutlineUser></a>
-      <a href="#experience" id='a3' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''} data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"><BsCodeSquare></BsCodeSquare></a>
-      <a href="#services" id='a4' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} data-aos="fade-up-left" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"><FaRegHandshake></FaRegHandshake></a>
-      <a href="#contact" id='a5' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''} data-aos="fade-up-left" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"><AiOutlineMessage></AiOutlineMessage></a>
+      <a href="#" id='a1' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome></AiOutlineHome></a>
+      <a href="#about" id='a2' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser></AiOutlineUser></a>
+      <a href="#experience" id='a3' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsCodeSquare></BsCodeSquare></a>
+      <a href="#services" id='a4' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><FaRegHandshake></FaRegHandshake></a>
+      <a href="#contact" id='a5' style={{transition:'0.5s ease'}} onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage></AiOutlineMessage></a>
     </nav>
   )
 }
