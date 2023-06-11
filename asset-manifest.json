@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gade/static/css/main.8af981fd.css",
+    "main.js": "/gade/static/js/main.a5f2941c.js",
+    "static/js/787.28d1ee6a.chunk.js": "/gade/static/js/787.28d1ee6a.chunk.js",
+    "static/media/abstract-dark-background-with-line-green_301033-160.jpg": "/gade/static/media/abstract-dark-background-with-line-green_301033-160.38a546d99043a89ffbd2.jpg",
+    "static/media/CodePic.avif": "/gade/static/media/CodePic.05ebb90dcfdbffae193b.avif",
+    "static/media/Resume.docx": "/gade/static/media/Resume.3a4d1ed89522a6ee2eaf.docx",
+    "index.html": "/gade/index.html",
+    "main.8af981fd.css.map": "/gade/static/css/main.8af981fd.css.map",
+    "main.a5f2941c.js.map": "/gade/static/js/main.a5f2941c.js.map",
+    "787.28d1ee6a.chunk.js.map": "/gade/static/js/787.28d1ee6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8af981fd.css",
+    "static/js/main.a5f2941c.js"
+  ]
+}
